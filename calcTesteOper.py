@@ -12,7 +12,4 @@ for op in operacoes:
 
     resp = response.json()
 
-    if resp['error'] == 'False':
-        print('Erro ao calcular')
-    else:
-        print('Resultado da operação {} = {}'.format(op, resp['value']))
+    print('Resultado da operação {} = {}'.format(op, resp['value']))
